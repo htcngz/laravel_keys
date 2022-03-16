@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('AdminTemplate/assets/images/brand/favicon.png')}}" />
 
     <!-- TITLE -->
-    <title>@lang('Kavak - Kavak') </title>
+    <title>@lang('Laravel') </title>
 
     <!-- BOOTSTRAP CSS -->
     <link id="style" href="{{asset('AdminTemplate/assets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" />
