@@ -136,29 +136,9 @@
                                     class="side-menu__icon fe fe-home"></i><span
                                     class="side-menu__label">@lang('Anasayfa')</span></a>
                         </li>
-                        <li class="slide @if(request()->segment(2) == 'about') active @endif">
-                            <a class="side-menu__item" data-bs-toggle="slide" href="{{route('admin.aboutUpdate')}}"><i
-                                    class="side-menu__icon fe fe-file-text"></i>@lang('Hakkımızda')</a>
-                        </li>
-                        <li class="slide @if(request()->segment(2) == 'contact') active @endif">
-                            <a class="side-menu__item" data-bs-toggle="slide" href="{{route('admin.contactUpdate')}}"><i
-                                    class="side-menu__icon fe fe-phone"></i>@lang('İletişim')</a>
-                        </li>
                         <li class="slide">
-                            <a class="side-menu__item" data-bs-toggle="slide" href="{{route('admin.services')}}"><i
-                                    class="side-menu__icon fe fe-clipboard"></i>@lang('Hizmetler')</a>
-                        </li>
-                        <li class="slide">
-                            <a class="side-menu__item" data-bs-toggle="slide" href="{{route('admin.teams')}}"><i
-                                    class="side-menu__icon fe fe-users"></i>@lang('Avukatlar')</a>
-                        </li>
-                        <li class="slide">
-                            <a class="side-menu__item" data-bs-toggle="slide" href="{{route('admin.privacyPolicyUpdate')}}"><i
-                                    class="side-menu__icon fe fe-lock"></i>@lang('Gizlilik Politikası')</a>
-                        </li>
-                        <li class="slide">
-                            <a class="side-menu__item" data-bs-toggle="slide" href="{{route('admin.slider')}}"><i
-                                    class="side-menu__icon fe fe-lock"></i>@lang('Slider')</a>
+                            <a class="side-menu__item" data-bs-toggle="slide" href="{{route('admin.test')}}"><i
+                                    class="side-menu__icon fe fe-file-text"></i>@lang('Test')</a>
                         </li>
                     </ul>
                     <div class="slide-right" id="slide-right"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191"
